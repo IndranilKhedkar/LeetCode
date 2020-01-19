@@ -1,8 +1,10 @@
 ﻿using Algorithms.Contracts;
 using Arrays_and_Strings;
 using BitManipulation;
+using DynamicProgramming;
 using HashTable;
 using Math;
+using Stack;
 
 namespace Algorithms.Helpers
 {
@@ -18,25 +20,63 @@ namespace Algorithms.Helpers
                 new RobotNavigation(),
                 new SquaresOfSortedArray(),
                 new ArrayPairSum(),
-                new MinDeletionsToSortListOfStrings()
+                new MinDeletionsToSortListOfStrings(),
+                new UniqueEmailAddresses(),
+                new StudentsHeightChecker(),
+                new TransposeMatrix(),
+                new NonDecreasingArray(),
+                new FindCommonCharecters(),
+                new ReverseString(),
+                new OccurancesAfterBigrams(),
+                new ShortestDistanceToACharecter(),
+                new MinimumAbsoluteDifference(),
+                new SearchInsertPosition(),
+                new MaximumSubarray(),
+                new LengthofLastWordInString(),
+                new MergeSortedArrays(),
+                new PascalTriangle(),
+                new PascalTriangleII(),
+                new BestTimetoBuyandSellStock(),
+                new Palindrome()
             };
 
         public static readonly Question[] MathQuestions =
             new Question[]
             {
-                new SelfDividingNumbers()
+                new FloorSqrt(),
+                new SelfDividingNumbers(),
+                new FibonacciNumber(),
+                new AddBinaryNumbers(),
+                new Math.FindSingleUniqueNumber()
             };
 
         public static readonly Question[] HashTableQuestions =
             new Question[]
             {
-                new UniqueNumberOfOccurances()
+                new UniqueNumberOfOccurances(),
+                new KeyboardRow(),
+                new SubdomainVisitCount(),
+                new WordsThatCanBeFormedFromSetOfCharecters(),
+                new HashTable.FindSingleUniqueNumber()
             };
 
         public static readonly Question[] BitManipulationQuestions =
             new Question[]
             {
-                new HammingDistance()
+                new HammingDistance(),
+                new BitManipulation.FindSingleUniqueNumber()
+            };
+
+        public static readonly Question[] StackQuestions =
+            new Question[]
+            {
+                new RemoveAllAdjecentDuplicatesInString()
+            };
+
+        public static readonly Question[] DynamicProgrammingQuestions =
+            new Question[]
+            {
+                new ClimbingStairs()
             };
     }
 }

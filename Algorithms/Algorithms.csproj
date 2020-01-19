@@ -7,10 +7,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Algorithms.Contracts\Algorithms.Contracts.csproj" />
-    <ProjectReference Include="..\Arrays and Strings\Arrays and Strings.csproj" />
-    <ProjectReference Include="..\BitManipulation\BitManipulation.csproj" />
-    <ProjectReference Include="..\HashTable\HashTable.csproj" />
-    <ProjectReference Include="..\Math\Math.csproj" />
+    <ProjectReference Include="..\Questions\Arrays and Strings\Arrays and Strings.csproj" />
+    <ProjectReference Include="..\Questions\BitManipulation\BitManipulation.csproj" />
+    <ProjectReference Include="..\Questions\DynamicProgramming\DynamicProgramming.csproj" />
+    <ProjectReference Include="..\Questions\HashSet\HashSet.csproj" />
+    <ProjectReference Include="..\Questions\HashTable\HashTable.csproj" />
+    <ProjectReference Include="..\Questions\LinkedList\LinkedList.csproj" />
+    <ProjectReference Include="..\Questions\Math\Math.csproj" />
+    <ProjectReference Include="..\Questions\Stack\Stack.csproj" />
+    <ProjectReference Include="..\Questions\Tree\Tree.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>Arrays_and_Strings</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Algorithms.Contracts\Algorithms.Contracts.csproj" />
+    <ProjectReference Include="..\..\Algorithms.Helpers\Algorithms.Helpers.csproj" />
+    <ProjectReference Include="..\..\Algorithms.Library\Algorithms.Library.csproj" />
+  </ItemGroup>
+
+</Project>

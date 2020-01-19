@@ -13,7 +13,9 @@ namespace Algorithms
                 QuestionsHelper.ArrayAndStringsQuestions,
                 QuestionsHelper.MathQuestions,
                 QuestionsHelper.HashTableQuestions,
-                QuestionsHelper.BitManipulationQuestions
+                QuestionsHelper.BitManipulationQuestions,
+                QuestionsHelper.StackQuestions,
+                QuestionsHelper.DynamicProgrammingQuestions
             };
 
             foreach (var topicQuestions in topicWiseQuestions)
