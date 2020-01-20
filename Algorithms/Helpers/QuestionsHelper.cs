@@ -37,7 +37,8 @@ namespace Algorithms.Helpers
                 new PascalTriangle(),
                 new PascalTriangleII(),
                 new BestTimetoBuyandSellStock(),
-                new Palindrome()
+                new Palindrome(),
+                new TwoSumIISortedArray()
             };
 
         public static readonly Question[] MathQuestions =
@@ -47,7 +48,8 @@ namespace Algorithms.Helpers
                 new SelfDividingNumbers(),
                 new FibonacciNumber(),
                 new AddBinaryNumbers(),
-                new Math.FindSingleUniqueNumber()
+                new Math.FindSingleUniqueNumber(),
+                new ExcelSheetColumnTitle()
             };
 
         public static readonly Question[] HashTableQuestions =
