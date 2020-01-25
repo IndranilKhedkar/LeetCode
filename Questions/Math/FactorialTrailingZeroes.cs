@@ -24,9 +24,9 @@ namespace Math
         {
             int result = 0;
 
-            for (int i = 5; n / i >= 1; i *= 5)
+            for (long i = 5; n / i >= 1; i *= 5)
             {
-                result += n / i;
+                result += (int)(n / i);
             }
 
             return result;
@@ -44,9 +44,14 @@ namespace Math
             n = 5;
             result = TrailingZeroes(n);
 
-            // Example 2
+            // Example 3
             // Output: 24
             n = 100;
+            result = TrailingZeroes(n);
+
+            // Example 4
+            // Output: 452137076
+            n = 1808548329;
             result = TrailingZeroes(n);
         }
     }
