@@ -49,7 +49,8 @@ namespace Algorithms.Helpers
                 new FibonacciNumber(),
                 new AddBinaryNumbers(),
                 new Math.FindSingleUniqueNumber(),
-                new ExcelSheetColumnTitle()
+                new ExcelSheetColumnTitle(),
+                new FactorialTrailingZeroes()
             };
 
         public static readonly Question[] HashTableQuestions =
