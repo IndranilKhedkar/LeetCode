@@ -73,6 +73,7 @@ namespace Algorithms.Helpers
         public static readonly Question[] StackQuestions =
             new Question[]
             {
+                new MinStack(),
                 new RemoveAllAdjecentDuplicatesInString()
             };
 
