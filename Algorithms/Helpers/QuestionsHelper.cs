@@ -50,7 +50,8 @@ namespace Algorithms.Helpers
                 new AddBinaryNumbers(),
                 new Math.FindSingleUniqueNumber(),
                 new ExcelSheetColumnTitle(),
-                new FactorialTrailingZeroes()
+                new ExcelSheetColumnNumber(),
+                new FactorialTrailingZeroes(),
             };
 
         public static readonly Question[] HashTableQuestions =
