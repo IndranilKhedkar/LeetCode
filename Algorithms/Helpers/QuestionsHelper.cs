@@ -5,6 +5,7 @@ using DynamicProgramming;
 using HashTable;
 using Math;
 using Stack;
+using Tree;
 
 namespace Algorithms.Helpers
 {
@@ -38,7 +39,8 @@ namespace Algorithms.Helpers
                 new PascalTriangleII(),
                 new BestTimetoBuyandSellStock(),
                 new Palindrome(),
-                new TwoSumIISortedArray()
+                new TwoSumIISortedArray(),
+                new RotateArray()
             };
 
         public static readonly Question[] MathQuestions =
@@ -75,13 +77,20 @@ namespace Algorithms.Helpers
             new Question[]
             {
                 new MinStack(),
-                new RemoveAllAdjecentDuplicatesInString()
+                new RemoveAllAdjecentDuplicatesInString(),
+                new BalancedBracketsII()
             };
 
         public static readonly Question[] DynamicProgrammingQuestions =
             new Question[]
             {
                 new ClimbingStairs()
+            };
+
+        public static readonly Question[] TreeQuestions =
+            new Question[]
+            {
+                new BinaryTreeLevelOrderTraversalII()
             };
     }
 }

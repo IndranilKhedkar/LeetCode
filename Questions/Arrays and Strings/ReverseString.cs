@@ -25,15 +25,39 @@ namespace Arrays_and_Strings
             return new string(s);
         }
 
+        #region Recursive Solution
+
+        private string result;
+
+        public string ReverseStringCharsRecursive(char[] s)
+        {
+            result = string.Empty;
+            ReverseStringCharsRecursiveHelper(s, 0);
+            return result;
+        }
+
+        private void ReverseStringCharsRecursiveHelper(char[] s, int index)
+        {
+            if (index >= s.Length)
+                return;
+
+            ReverseStringCharsRecursiveHelper(s, index + 1);
+            result = s[index] + result;
+        }
+
+        #endregion Recursive Solution
+
         public override void Run()
         {
             // Example 1
             char[] input = new char[] { 'h', 'e', 'l', 'l', 'o' };
             var result = ReverseStringChars(input);
+            result = ReverseStringCharsRecursive(input);
 
             // Example 2
             input = new char[] { 'H', 'a', 'n', 'n', 'a', 'h' };
             result = ReverseStringChars(input);
+            result = ReverseStringCharsRecursive(input);
         }
     }
 }
