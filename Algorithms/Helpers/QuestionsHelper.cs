@@ -70,7 +70,8 @@ namespace Algorithms.Helpers
             new Question[]
             {
                 new HammingDistance(),
-                new BitManipulation.FindSingleUniqueNumber()
+                new BitManipulation.FindSingleUniqueNumber(),
+                new Numberof1Bit()
             };
 
         public static readonly Question[] StackQuestions =

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Algorithms.Contracts\Algorithms.Contracts.csproj" />
+    <ProjectReference Include="..\..\Algorithms.Helpers\Algorithms.Helpers.csproj" />
   </ItemGroup>
 
 </Project>
