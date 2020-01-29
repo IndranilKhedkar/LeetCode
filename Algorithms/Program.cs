@@ -13,6 +13,7 @@ namespace Algorithms
                 QuestionsHelper.ArrayAndStringsQuestions,
                 QuestionsHelper.MathQuestions,
                 QuestionsHelper.HashTableQuestions,
+                QuestionsHelper.HashSetQuestions,
                 QuestionsHelper.BitManipulationQuestions,
                 QuestionsHelper.StackQuestions,
                 QuestionsHelper.DynamicProgrammingQuestions,

@@ -55,5 +55,31 @@
 
             return result;
         }
+
+        /// <summary>
+        /// Returns true if num is a perfect square, otherwise false.
+        /// </summary>
+        /// <param name="num">Number</param>
+        /// <returns>bool</returns>
+        public static bool IsPerfectSquare(this int num)
+        {
+            int start = 0;
+            int end = num;
+            
+            while (start <= end)
+            {
+                int mid = (start + end) / 2;
+                ulong square = ((ulong)mid * (ulong)mid);
+
+                if (square == (ulong)num)
+                    return true;
+                else if (square < (ulong)num)
+                    start = mid + 1;
+                else
+                    end = mid - 1;
+            }
+
+            return false;
+        }
     }
 }

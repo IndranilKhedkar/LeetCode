@@ -2,6 +2,7 @@
 using Arrays_and_Strings;
 using BitManipulation;
 using DynamicProgramming;
+using HashSet;
 using HashTable;
 using Math;
 using Stack;
@@ -40,7 +41,8 @@ namespace Algorithms.Helpers
                 new BestTimetoBuyandSellStock(),
                 new Palindrome(),
                 new TwoSumIISortedArray(),
-                new RotateArray()
+                new RotateArray(),
+                new ReverseVowelsofaString()
             };
 
         public static readonly Question[] MathQuestions =
@@ -54,6 +56,7 @@ namespace Algorithms.Helpers
                 new ExcelSheetColumnTitle(),
                 new ExcelSheetColumnNumber(),
                 new FactorialTrailingZeroes(),
+                new ValidPerfectSquare()
             };
 
         public static readonly Question[] HashTableQuestions =
@@ -65,6 +68,12 @@ namespace Algorithms.Helpers
                 new WordsThatCanBeFormedFromSetOfCharecters(),
                 new HashTable.FindSingleUniqueNumber()
             };
+
+        public static readonly Question[] HashSetQuestions =
+           new Question[]
+           {
+                new IntersectionofTwoArrays()
+           };
 
         public static readonly Question[] BitManipulationQuestions =
             new Question[]
