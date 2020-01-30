@@ -56,7 +56,8 @@ namespace Algorithms.Helpers
                 new ExcelSheetColumnTitle(),
                 new ExcelSheetColumnNumber(),
                 new FactorialTrailingZeroes(),
-                new ValidPerfectSquare()
+                new ValidPerfectSquare(),
+                new AddNumberDigits()
             };
 
         public static readonly Question[] HashTableQuestions =
