@@ -19,7 +19,7 @@ namespace Math
     [RelatedTopic(Topic.BitManipulation)]
     public class PowerofFour : Question
     {
-        // Taking Log to the base 4 of the number
+        // Taking log to the base 4 of the number
         public bool IsPowerOfFour(int num)
         {
             if (num <= 0)
