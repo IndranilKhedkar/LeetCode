@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "Questions\Stack\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree", "Questions\Tree\Tree.csproj", "{91875D17-D675-45D2-9203-EDBC23CF4017}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency", "Questions\Concurrency\Concurrency.csproj", "{0609F217-55AE-408E-83F5-A6A6D3638A33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{91875D17-D675-45D2-9203-EDBC23CF4017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91875D17-D675-45D2-9203-EDBC23CF4017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91875D17-D675-45D2-9203-EDBC23CF4017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0609F217-55AE-408E-83F5-A6A6D3638A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0609F217-55AE-408E-83F5-A6A6D3638A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0609F217-55AE-408E-83F5-A6A6D3638A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0609F217-55AE-408E-83F5-A6A6D3638A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +109,7 @@ Global
 		{7F8BC54B-6604-4A4A-B377-39AC22F673E6} = {8E9BD650-662C-4660-861C-E0E7C38130FC}
 		{A98C15C8-5921-4595-A1BC-6D8CD782E34C} = {8E9BD650-662C-4660-861C-E0E7C38130FC}
 		{91875D17-D675-45D2-9203-EDBC23CF4017} = {8E9BD650-662C-4660-861C-E0E7C38130FC}
+		{0609F217-55AE-408E-83F5-A6A6D3638A33} = {8E9BD650-662C-4660-861C-E0E7C38130FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A097C1B-D493-4EA8-9932-2C410AF1DC7A}

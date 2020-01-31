@@ -9,6 +9,7 @@
     <ProjectReference Include="..\Algorithms.Contracts\Algorithms.Contracts.csproj" />
     <ProjectReference Include="..\Questions\Arrays and Strings\Arrays and Strings.csproj" />
     <ProjectReference Include="..\Questions\BitManipulation\BitManipulation.csproj" />
+    <ProjectReference Include="..\Questions\Concurrency\Concurrency.csproj" />
     <ProjectReference Include="..\Questions\DynamicProgramming\DynamicProgramming.csproj" />
     <ProjectReference Include="..\Questions\HashSet\HashSet.csproj" />
     <ProjectReference Include="..\Questions\HashTable\HashTable.csproj" />

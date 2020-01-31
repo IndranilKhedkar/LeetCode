@@ -43,6 +43,7 @@
         LineSweep,
         RollingHash,
         SuffixArray,
-        BoyerMooreVotingAlgorithm
+        BoyerMooreVotingAlgorithm,
+        Concurrency
     }
 }

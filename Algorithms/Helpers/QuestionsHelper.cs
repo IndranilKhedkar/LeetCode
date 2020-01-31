@@ -1,6 +1,7 @@
 ﻿using Algorithms.Contracts;
 using Arrays_and_Strings;
 using BitManipulation;
+using Concurrency;
 using DynamicProgramming;
 using HashSet;
 using HashTable;
@@ -102,6 +103,12 @@ namespace Algorithms.Helpers
             new Question[]
             {
                 new BinaryTreeLevelOrderTraversalII()
+            };
+
+        public static readonly Question[] ConcurrencyQuestions =
+            new Question[]
+            {
+               new PrintFooBarAlternately()
             };
     }
 }
