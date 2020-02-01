@@ -43,7 +43,8 @@ namespace Algorithms.Helpers
                 new Palindrome(),
                 new TwoSumIISortedArray(),
                 new RotateArray(),
-                new ReverseVowelsofaString()
+                new ReverseVowelsofaString(),
+                new MoveZeroes()
             };
 
         public static readonly Question[] MathQuestions =
