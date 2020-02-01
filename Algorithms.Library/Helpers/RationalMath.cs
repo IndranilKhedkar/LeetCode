@@ -42,5 +42,26 @@ namespace Algorithms.Library.Helpers
             //FactorialMemory[i] = i * Factorial(i - 1);
             //return FactorialMemory[i];
         }
+
+        public static HashSet<int> PrimeFactors(int n)
+        {
+            HashSet<int> result = new HashSet<int>();
+
+            for (int i = 2; i <= n / i; i++)
+            {
+                while (n % i == 0)
+                {
+                    result.Add(i);
+                    n /= i;
+                }
+            }
+
+            if (n > 1)
+            {
+                result.Add(n);
+            }
+
+            return result;
+        }
     }
 }
