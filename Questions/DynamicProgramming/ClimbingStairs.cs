@@ -37,7 +37,7 @@ namespace DynamicProgramming
             return mem[n - 1];
         }
 
-        public int ClimbStairs_1(int n)
+        public int ClimbStairsIterative(int n)
         {
             if (n == 0 || n == 1)
                 return n;
@@ -56,37 +56,66 @@ namespace DynamicProgramming
             return result;
         }
 
+        public int ClimbStairsRecursive(int n, int?[] cache)
+        {
+            if (cache[n].HasValue)
+            {
+                return (int)cache[n];
+            }
+            if (n == 0 || n == 1 || n == 2)
+            {
+                cache[n] = n;
+                return n;
+            }
+
+            int count = ClimbStairsRecursive(n - 1, cache) + ClimbStairsRecursive(n - 2, cache);
+            cache[n] = count;
+            return count;
+        }
+
         public override void Run()
         {
             // Example 1
             // Output: 0
             var result = ClimbStairs(0);
-            result = ClimbStairs_1(0);
+            result = ClimbStairsIterative(0);
+            result = ClimbStairsRecursive(0, new int?[1]);
 
             // Example 2
             // Output: 1
             result = ClimbStairs(1);
-            result = ClimbStairs_1(1);
+            result = ClimbStairsIterative(1);
+            result = ClimbStairsRecursive(1, new int?[2]);
 
             // Example 3
             // Output: 2
             result = ClimbStairs(2);
-            result = ClimbStairs_1(2);
+            result = ClimbStairsIterative(2);
+            result = ClimbStairsRecursive(2, new int?[3]);
 
             // Example 4
             // Output: 3
             result = ClimbStairs(3);
-            result = ClimbStairs_1(3);
+            result = ClimbStairsIterative(3);
+            result = ClimbStairsRecursive(3, new int?[4]);
 
             // Example 5
             // Output: 5
             result = ClimbStairs(4);
-            result = ClimbStairs_1(4);
+            result = ClimbStairsIterative(4);
+            result = ClimbStairsRecursive(4, new int?[5]);
 
             // Example 6
             // Output: 8
             result = ClimbStairs(5);
-            result = ClimbStairs_1(5);
+            result = ClimbStairsIterative(5);
+            result = ClimbStairsRecursive(5, new int?[6]);
+
+            // Example 7
+            // Output: ??
+            result = ClimbStairs(44);
+            result = ClimbStairsIterative(44);
+            result = ClimbStairsRecursive(44, new int?[45]);
         }
     }
 }

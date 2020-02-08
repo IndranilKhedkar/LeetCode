@@ -25,6 +25,16 @@ namespace Arrays_and_Strings
             return new string(s);
         }
 
+        public string ReverseStringIterative(char[] s)
+        {
+            var result = string.Empty;
+            for (int i = 0; i < s.Length; i++)
+            {
+                result = s[i] + result;
+            }
+            return result;
+        }
+
         #region Recursive Solution
 
         private string result;
@@ -53,11 +63,13 @@ namespace Arrays_and_Strings
             char[] input = new char[] { 'h', 'e', 'l', 'l', 'o' };
             var result = ReverseStringChars(input);
             result = ReverseStringCharsRecursive(input);
+            result = ReverseStringIterative(input);
 
             // Example 2
             input = new char[] { 'H', 'a', 'n', 'n', 'a', 'h' };
             result = ReverseStringChars(input);
             result = ReverseStringCharsRecursive(input);
+            result = ReverseStringIterative(input);
         }
     }
 }

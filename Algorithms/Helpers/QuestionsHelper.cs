@@ -3,9 +3,11 @@ using Arrays_and_Strings;
 using BitManipulation;
 using Concurrency;
 using DynamicProgramming;
+using General;
 using HashSet;
 using HashTable;
 using Math;
+using Recursion;
 using Stack;
 using Tree;
 
@@ -16,6 +18,7 @@ namespace Algorithms.Helpers
         public static readonly Question[] ArrayAndStringsQuestions =
             new Question[]
             {
+                new LeetCodeContest(),
                 new DefangingIPAddress(),
                 new CellsWithOddValuesInMatrix(),
                 new ReplaceElementsWithGreatestElementOnTheRightSide(),
@@ -44,7 +47,8 @@ namespace Algorithms.Helpers
                 new TwoSumIISortedArray(),
                 new RotateArray(),
                 new ReverseVowelsofaString(),
-                new MoveZeroes()
+                new MoveZeroes(),
+                new ArrayPartition()
             };
 
         public static readonly Question[] MathQuestions =
@@ -60,7 +64,8 @@ namespace Algorithms.Helpers
                 new FactorialTrailingZeroes(),
                 new ValidPerfectSquare(),
                 new AddNumberDigits(),
-                new UglyNumber()
+                new UglyNumber(),
+                new HappyNumber()
             };
 
         public static readonly Question[] HashTableQuestions =
@@ -70,7 +75,8 @@ namespace Algorithms.Helpers
                 new KeyboardRow(),
                 new SubdomainVisitCount(),
                 new WordsThatCanBeFormedFromSetOfCharecters(),
-                new HashTable.FindSingleUniqueNumber()
+                new HashTable.FindSingleUniqueNumber(),
+                new IsomorphicStrings()
             };
 
         public static readonly Question[] HashSetQuestions =
@@ -111,6 +117,22 @@ namespace Algorithms.Helpers
             new Question[]
             {
                new PrintFooBarAlternately()
+            };
+
+        public static readonly Question[] RecursionQuestions =
+            new Question[]
+            {
+               new TowerOfHanoi(1),
+               new ArraySortedCheck(),
+               new KAryStrings(),
+               new NBitStrings(),
+               new MagicMatrix()
+            };
+
+        public static readonly Question[] GeneralQuestions =
+            new Question[]
+            {
+               new FizzBuzz()
             };
     }
 }

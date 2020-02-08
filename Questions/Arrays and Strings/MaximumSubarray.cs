@@ -21,6 +21,21 @@ namespace Arrays_and_Strings
     {
         public int MaxSubArray(int[] nums)
         {
+            int len = nums.Length;
+            int result = nums[0];
+
+            for (int i = 1; i < len; i++)
+            {
+                var currVal = Math.Max(nums[i], nums[i] + nums[i - 1]);
+                nums[i] = currVal;
+                result = Math.Max(result, currVal);
+            }
+
+            return result;
+        }
+
+        public int MaxSubArray_1(int[] nums)
+        {
             int result = int.MinValue;
             int len = nums.Length;
 
@@ -46,10 +61,12 @@ namespace Arrays_and_Strings
             // Example 1
             int[] arr = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
             var result = MaxSubArray(arr);
+            result = MaxSubArray_1(arr);
 
             // Example 2
             arr = new int[] { -2, 1 };
             result = MaxSubArray(arr);
+            result = MaxSubArray_1(arr);
         }
     }
 }

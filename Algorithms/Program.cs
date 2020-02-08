@@ -18,7 +18,9 @@ namespace Algorithms
                 QuestionsHelper.StackQuestions,
                 QuestionsHelper.DynamicProgrammingQuestions,
                 QuestionsHelper.TreeQuestions,
-                QuestionsHelper.ConcurrencyQuestions
+                QuestionsHelper.ConcurrencyQuestions,
+                QuestionsHelper.RecursionQuestions,
+                QuestionsHelper.GeneralQuestions
             };
 
             foreach (var topicQuestions in topicWiseQuestions)
