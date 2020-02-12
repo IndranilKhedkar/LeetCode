@@ -4,13 +4,13 @@
     {
         int Count { get; }
 
-        T Top { get; }
-
         bool IsEmpty();
 
         void Push(T item);
 
         T Pop();
+
+        T Peek();
 
         string ToString();
     }

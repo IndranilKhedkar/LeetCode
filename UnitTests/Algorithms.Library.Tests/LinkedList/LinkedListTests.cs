@@ -1,7 +1,6 @@
-using Algorithms.Library.LinkedList;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Algorithms.Library.Tests
+namespace Algorithms.Library.LinkedList.Tests
 {
     [TestClass]
     public class LinkedListTests
@@ -157,7 +156,7 @@ namespace Algorithms.Library.Tests
             myLinkedList.RemoveMatched(nodeToBeRemoved);
 
             Assert.IsNotNull(myLinkedList);
-            Assert.AreEqual("1->2->3->4->", myLinkedList.ToString());
+            Assert.AreEqual("1->2->3->4->5", myLinkedList.ToString());
         }
 
         [TestMethod]
@@ -205,7 +204,7 @@ namespace Algorithms.Library.Tests
             myLinkedList.Remove(2);
 
             Assert.IsNotNull(myLinkedList);
-            Assert.AreEqual("1->2->4->5", myLinkedList.ToString());
+            Assert.AreEqual("1->3->4->5", myLinkedList.ToString());
         }
     }
 }

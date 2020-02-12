@@ -65,7 +65,7 @@
         {
             int start = 0;
             int end = num;
-            
+
             while (start <= end)
             {
                 int mid = (start + end) / 2;
@@ -80,6 +80,30 @@
             }
 
             return false;
+        }
+
+        /// <summary>
+        /// Returns true if num is a prime, otherwise false.
+        /// </summary>
+        /// <param name="n">Number</param>
+        /// <returns>bool</returns>
+        public static bool IsPrime(this int n)
+        {
+            int sqrt = (int)System.Math.Sqrt(n);
+            if (n <= 1)
+                return false;
+
+            int i = 2;
+            while (i <= sqrt)
+            {
+                if (n % i == 0)
+                {
+                    return false;
+                }
+                i++;
+            }
+
+            return true;
         }
     }
 }

@@ -36,19 +36,6 @@ namespace Algorithms.Library.Stack.Implementation
             get { return _top + 1; }
         }
 
-        public T Top
-        {
-            get
-            {
-                if (IsEmpty())
-                {
-                    throw new StackUnderflowException();
-                }
-
-                return _stack[_top];
-            }
-        }
-
         #endregion Public Properties
 
         #region Public Methods
@@ -110,6 +97,16 @@ namespace Algorithms.Library.Stack.Implementation
                 }
             }
             return stringBuilder.Append("]").ToString();
+        }
+
+        public T Peek()
+        {
+            if (IsEmpty())
+            {
+                throw new StackUnderflowException();
+            }
+
+            return _stack[_top];
         }
 
         #endregion Public Methods

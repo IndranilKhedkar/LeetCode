@@ -20,6 +20,7 @@ namespace Algorithms
                 QuestionsHelper.TreeQuestions,
                 QuestionsHelper.ConcurrencyQuestions,
                 QuestionsHelper.RecursionQuestions,
+                QuestionsHelper.LinkedListQuestions,
                 QuestionsHelper.GeneralQuestions
             };
 

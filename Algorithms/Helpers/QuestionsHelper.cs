@@ -6,6 +6,7 @@ using DynamicProgramming;
 using General;
 using HashSet;
 using HashTable;
+using LinkedList;
 using Math;
 using Recursion;
 using Stack;
@@ -65,7 +66,8 @@ namespace Algorithms.Helpers
                 new ValidPerfectSquare(),
                 new AddNumberDigits(),
                 new UglyNumber(),
-                new HappyNumber()
+                new HappyNumber(),
+                new CountPrimesNumbers()
             };
 
         public static readonly Question[] HashTableQuestions =
@@ -76,7 +78,8 @@ namespace Algorithms.Helpers
                 new SubdomainVisitCount(),
                 new WordsThatCanBeFormedFromSetOfCharecters(),
                 new HashTable.FindSingleUniqueNumber(),
-                new IsomorphicStrings()
+                new IsomorphicStrings(),
+                new ContainsDuplicateIII()
             };
 
         public static readonly Question[] HashSetQuestions =
@@ -134,5 +137,11 @@ namespace Algorithms.Helpers
             {
                new FizzBuzz()
             };
+
+        public static readonly Question[] LinkedListQuestions =
+           new Question[]
+           {
+               new RemoveLinkedListElements()
+           };
     }
 }
