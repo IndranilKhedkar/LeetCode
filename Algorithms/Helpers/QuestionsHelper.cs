@@ -8,6 +8,7 @@ using HashSet;
 using HashTable;
 using LinkedList;
 using Math;
+using Queue;
 using Recursion;
 using Stack;
 using Tree;
@@ -20,6 +21,7 @@ namespace Algorithms.Helpers
             new Question[]
             {
                 new LeetCodeContest(),
+                new StringMatchingAlgorithms(),
                 new DefangingIPAddress(),
                 new CellsWithOddValuesInMatrix(),
                 new ReplaceElementsWithGreatestElementOnTheRightSide(),
@@ -79,7 +81,8 @@ namespace Algorithms.Helpers
                 new WordsThatCanBeFormedFromSetOfCharecters(),
                 new HashTable.FindSingleUniqueNumber(),
                 new IsomorphicStrings(),
-                new ContainsDuplicateIII()
+                new ContainsDuplicateIII(),
+                new BullsandCows()
             };
 
         public static readonly Question[] HashSetQuestions =
@@ -101,13 +104,15 @@ namespace Algorithms.Helpers
             {
                 new MinStack(),
                 new RemoveAllAdjecentDuplicatesInString(),
-                new BalancedBracketsII()
+                new BalancedBracketsII(),
+                new ReverseStack()
             };
 
         public static readonly Question[] DynamicProgrammingQuestions =
             new Question[]
             {
-                new ClimbingStairs()
+                new ClimbingStairs(),
+                new NimGame()
             };
 
         public static readonly Question[] TreeQuestions =
@@ -143,5 +148,11 @@ namespace Algorithms.Helpers
            {
                new RemoveLinkedListElements()
            };
+
+        public static readonly Question[] QueueQuestions =
+            new Question[]
+            {
+                new MonitoringAndAlertingSystem()
+            };
     }
 }

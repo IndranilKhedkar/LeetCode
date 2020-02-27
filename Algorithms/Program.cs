@@ -21,7 +21,8 @@ namespace Algorithms
                 QuestionsHelper.ConcurrencyQuestions,
                 QuestionsHelper.RecursionQuestions,
                 QuestionsHelper.LinkedListQuestions,
-                QuestionsHelper.GeneralQuestions
+                QuestionsHelper.GeneralQuestions,
+                QuestionsHelper.QueueQuestions
             };
 
             foreach (var topicQuestions in topicWiseQuestions)

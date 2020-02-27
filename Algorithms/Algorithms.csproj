@@ -16,6 +16,7 @@
     <ProjectReference Include="..\Questions\HashTable\HashTable.csproj" />
     <ProjectReference Include="..\Questions\LinkedList\LinkedList.csproj" />
     <ProjectReference Include="..\Questions\Math\Math.csproj" />
+    <ProjectReference Include="..\Questions\Queue\Queue.csproj" />
     <ProjectReference Include="..\Questions\Recursion\Recursion.csproj" />
     <ProjectReference Include="..\Questions\Stack\Stack.csproj" />
     <ProjectReference Include="..\Questions\Tree\Tree.csproj" />

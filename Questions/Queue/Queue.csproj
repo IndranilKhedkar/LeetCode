@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ApiResponses.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ApiResponses.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Algorithms.Contracts\Algorithms.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
