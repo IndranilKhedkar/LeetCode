@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Algorithms.Library.Sorting.Tests
 {
     [TestClass]
-    public class SelectionSortTests
+    public class InsertionSortTests
     {
         [TestMethod]
         public void Sort_For_IntArrayInDescendingOrder_Returns_SortedArrayInAscendingOrder()
@@ -12,7 +12,7 @@ namespace Algorithms.Library.Sorting.Tests
             int[] A = new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
 
             /* Act */
-            var result = new SelectionSort<int>().Sort(A);
+            var result = new InsertionSort<int>().Sort(A);
 
             /* Assert */
             Assert.IsNotNull(A);
@@ -29,7 +29,7 @@ namespace Algorithms.Library.Sorting.Tests
             int[] A = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
             /* Act */
-            var result = new SelectionSort<int>().Sort(A);
+            var result = new InsertionSort<int>().Sort(A);
 
             /* Assert */
             Assert.IsNotNull(A);
@@ -47,7 +47,7 @@ namespace Algorithms.Library.Sorting.Tests
             int[] expectedResult = new int[] { 0, 1, 3, 3, 5, 9, 9, 57, 123, 123, 5612 };
 
             /* Act */
-            var result = new SelectionSort<int>().Sort(A);
+            var result = new InsertionSort<int>().Sort(A);
 
             /* Assert */
             Assert.IsNotNull(A);
