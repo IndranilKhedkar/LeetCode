@@ -12,6 +12,7 @@ using Queue;
 using Recursion;
 using Stack;
 using Tree;
+using DivideAndConquer;
 
 namespace Algorithms.Helpers
 {
@@ -153,6 +154,12 @@ namespace Algorithms.Helpers
             new Question[]
             {
                 new MonitoringAndAlertingSystem()
+            };
+
+        public static readonly Question[] DivideAndConquerQuestions =
+            new Question[]
+            {
+              new KClosestPointstoOrigin()
             };
     }
 }

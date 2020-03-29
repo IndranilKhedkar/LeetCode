@@ -47,7 +47,7 @@ namespace DynamicProgramming
         {
             // Example 1
             var result = CanWinNim_MathApproach(4);
-            result = CanWinNim(1348820612);
+            //result = CanWinNim(1348820612);
         }
 
     }
