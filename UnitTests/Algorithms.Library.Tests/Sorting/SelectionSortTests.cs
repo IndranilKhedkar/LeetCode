@@ -15,10 +15,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new SelectionSort<int>().Sort(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = 0; i < A.Length; i++)
             {
-                Assert.AreEqual(i, A[i]);
+                Assert.AreEqual(i, result[i]);
             }
         }
 
@@ -32,10 +32,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new SelectionSort<int>().Sort(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = 0; i < A.Length; i++)
             {
-                Assert.AreEqual(i, A[i]);
+                Assert.AreEqual(i, result[i]);
             }
         }
 
@@ -50,10 +50,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new SelectionSort<int>().Sort(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = 0; i < A.Length; i++)
             {
-                Assert.AreEqual(expectedResult[i], A[i]);
+                Assert.AreEqual(expectedResult[i], result[i]);
             }
         }
     }

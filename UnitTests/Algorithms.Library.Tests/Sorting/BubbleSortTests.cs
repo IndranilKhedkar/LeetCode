@@ -15,10 +15,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new BubbleSort<int>().SortInAscendingOrder(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = 0; i < A.Length; i++)
             {
-                Assert.AreEqual(i, A[i]);
+                Assert.AreEqual(i, result[i]);
             }
         }
 
@@ -32,10 +32,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new BubbleSort<int>().SortInAscendingOrder(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = 0; i < A.Length; i++)
             {
-                Assert.AreEqual(i, A[i]);
+                Assert.AreEqual(i, result[i]);
             }
         }
 
@@ -50,10 +50,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new BubbleSort<int>().SortInAscendingOrder(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = 0; i < A.Length; i++)
             {
-                Assert.AreEqual(expectedResult[i], A[i]);
+                Assert.AreEqual(expectedResult[i], result[i]);
             }
         }
 
@@ -67,10 +67,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new BubbleSort<int>().SortInDescendingOrder(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = A.Length - 1, j = 0; i >= 0; i--, j++)
             {
-                Assert.AreEqual(i, A[j]);
+                Assert.AreEqual(i, result[j]);
             }
         }
 
@@ -84,10 +84,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new BubbleSort<int>().SortInDescendingOrder(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = A.Length - 1, j = 0; i >= 0; i--, j++)
             {
-                Assert.AreEqual(i, A[j]);
+                Assert.AreEqual(i, result[j]);
             }
         }
 
@@ -102,10 +102,10 @@ namespace Algorithms.Library.Sorting.Tests
             var result = new BubbleSort<int>().SortInDescendingOrder(A);
 
             /* Assert */
-            Assert.IsNotNull(A);
+            Assert.IsNotNull(result);
             for (int i = 0; i < A.Length; i++)
             {
-                Assert.AreEqual(expectedResult[i], A[i]);
+                Assert.AreEqual(expectedResult[i], result[i]);
             }
         }
     }
