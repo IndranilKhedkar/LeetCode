@@ -29,5 +29,28 @@ namespace Algorithms.Library.Sorting
 
             return result;
         }
+
+        public int[] Sort_1(int[] arr, int k)
+        {
+            int length = arr.Length;
+            int[] countArr = new int[k];
+
+            for (int i = 0; i < length; i++)
+            {
+                countArr[arr[i]] += 1;
+            }
+
+            int index = 0;
+            for (int i = 0; i < k; i++)
+            {
+                while (countArr[i] > 0)
+                {
+                    arr[index++] = i;
+                    countArr[i]--;
+                }
+            }
+
+            return arr;
+        }
     }
 }
