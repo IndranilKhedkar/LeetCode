@@ -6,6 +6,7 @@
         HashTable,
         HashSet,
         LinkedList,
+        DoublyLinkedList,
         Math,
         TwoPointers,
         String,
