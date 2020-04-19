@@ -13,10 +13,12 @@
     <ProjectReference Include="..\Questions\DivideAndConquer\DivideAndConquer.csproj" />
     <ProjectReference Include="..\Questions\DynamicProgramming\DynamicProgramming.csproj" />
     <ProjectReference Include="..\Questions\General\General.csproj" />
+    <ProjectReference Include="..\Questions\Graphs\Graphs.csproj" />
     <ProjectReference Include="..\Questions\HashSet\HashSet.csproj" />
     <ProjectReference Include="..\Questions\HashTable\HashTable.csproj" />
     <ProjectReference Include="..\Questions\LinkedList\LinkedList.csproj" />
     <ProjectReference Include="..\Questions\Math\Math.csproj" />
+    <ProjectReference Include="..\Questions\Matrix\Matrix.csproj" />
     <ProjectReference Include="..\Questions\Queue\Queue.csproj" />
     <ProjectReference Include="..\Questions\Recursion\Recursion.csproj" />
     <ProjectReference Include="..\Questions\Stack\Stack.csproj" />

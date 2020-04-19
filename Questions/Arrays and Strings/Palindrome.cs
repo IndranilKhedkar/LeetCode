@@ -1,6 +1,7 @@
 ﻿using Algorithms.Contracts;
 using Algorithms.Helpers.Attibutes;
 using Algorithms.Helpers.Enums;
+using System.Collections.Generic;
 
 namespace Arrays_and_Strings
 {

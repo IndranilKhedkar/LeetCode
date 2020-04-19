@@ -23,7 +23,8 @@ namespace Algorithms
                 QuestionsHelper.LinkedListQuestions,
                 QuestionsHelper.GeneralQuestions,
                 QuestionsHelper.QueueQuestions,
-                QuestionsHelper.DivideAndConquerQuestions
+                QuestionsHelper.DivideAndConquerQuestions,
+                QuestionsHelper.MatrixQuestions
             };
 
             foreach (var topicQuestions in topicWiseQuestions)

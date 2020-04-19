@@ -13,6 +13,7 @@ using Recursion;
 using Stack;
 using Tree;
 using DivideAndConquer;
+using Matrix;
 
 namespace Algorithms.Helpers
 {
@@ -47,12 +48,17 @@ namespace Algorithms.Helpers
                 new PascalTriangle(),
                 new PascalTriangleII(),
                 new BestTimetoBuyandSellStock(),
+                new BestTimetoBuyandSellStockII(),
                 new Palindrome(),
                 new TwoSumIISortedArray(),
                 new RotateArray(),
                 new ReverseVowelsofaString(),
                 new MoveZeroes(),
-                new ArrayPartition()
+                new ArrayPartition(),
+                new CountAndSay(),
+                new GroupAnagrams(),
+                new LongestPalindromicSubstring(),
+                new StringPermutations()
             };
 
         public static readonly Question[] MathQuestions =
@@ -113,7 +119,8 @@ namespace Algorithms.Helpers
             new Question[]
             {
                 new ClimbingStairs(),
-                new NimGame()
+                new NimGame(),
+                new EditDistance()
             };
 
         public static readonly Question[] TreeQuestions =
@@ -160,6 +167,12 @@ namespace Algorithms.Helpers
             new Question[]
             {
               new KClosestPointstoOrigin()
+            };
+
+        public static readonly Question[] MatrixQuestions =
+            new Question[]
+            {
+              new GameOfLife()
             };
     }
 }
